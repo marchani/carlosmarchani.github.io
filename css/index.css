@@ -1,0 +1,59 @@
+.main-content {
+    align-items: center;
+    background-image: url('../images/Background.png');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    font-family: "Georgia", sans-serif;
+    height: 70vh;
+    width: 100%;
+}
+
+.main-content .container {
+    height: 20%;
+    width: 100%;
+}
+
+.main-content .container img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-content .container p {
+    color: #000000;
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    text-align: center;
+}
+
+#text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #000000;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width: 1126px) {
+    .main-content .container img {
+        height: 200px;
+        width: 200px;
+    }
+    #text {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .main-content .container img {
+        height: 100px;
+        width: 100px;
+    }
+    #text {
+        font-size: 14px;
+    }
+}
