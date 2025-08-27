@@ -1,0 +1,49 @@
+.main-content {
+    font-family: "Avenir", sans-serif;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.main-content .text-container li,
+.main-content .text-container p {
+    color: #d6d6d6;
+    line-height: 1.6;
+    margin-left: 30px;
+}
+
+@media screen and (min-width: 1126px) {
+    .main-content {
+        display: flex;
+        font-size: 14px;
+    }
+    .main-content .image-container {
+        max-width: 70%;
+    }
+    .main-content .image-container img {
+        float: right;
+        margin-right: 40px;
+        max-width: 70%;
+    }
+    .main-content .text-container {
+        float: right;
+        margin-right: 40px;
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .main-content {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .main-content .image-container img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60%;
+    }
+    .main-content .text-container {
+        margin-top: 40px;
+        margin-right: 40px;
+    }
+}

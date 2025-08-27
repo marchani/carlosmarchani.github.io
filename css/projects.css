@@ -1,0 +1,49 @@
+.main-content a {
+    color: #d6d6d6;
+    text-decoration: underline;
+}
+
+.main-content .text-container {
+    color: #d6d6d6;
+    font-family: "Avenir", sans-serif;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.screenshot img {
+    margin-top: 20px;
+}
+
+#projects-list {
+    list-style: none;
+}
+
+#projects-list li {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1126px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 2.5fr;
+    }
+    .main-content {
+        font-size: 14px;
+    }
+    .main-content .text-container {
+        width: 65%;
+    }
+    .screenshot img {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .main-content {
+        font-size: 12px;
+    }
+    .main-content .text-container {
+        width: 90%;
+    }
+}
