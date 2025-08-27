@@ -1,0 +1,32 @@
+.main-content {
+    display: flex;
+    padding-top: 40px;
+}
+
+.main-content .text-container {
+    color: #d6d6d6;
+    display: block;
+    font-family: "Avenir", sans-serif;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 1126px) {
+    .main-content {
+        font-size: 14px;
+    }
+    .main-content .text-container {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .main-content {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+    .main-content .text-container {
+        width: 90%;
+    }
+}
